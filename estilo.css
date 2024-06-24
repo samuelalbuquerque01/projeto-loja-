@@ -1,0 +1,261 @@
+/*resetando conf*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    background: black url('imagens/fundo-hexadecimal-para-redes_52683-137877.avif');
+}
+
+/*layot*/
+
+#cabecalho{
+    background-color: #a020f0;
+    padding: 15px;
+    text-align: center;
+}
+
+/*LOGO*/
+
+#logo, menu{
+    padding: 10px;
+}
+
+.logotipo img{
+position: absolute;
+  width: 70px;
+  top: 10px;  
+  bottom: 0px;
+  left: 30px;
+  
+}
+
+/*Formatação do menu*/
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #fff;
+    padding: 8px 12px;
+
+}
+a:hover{
+    color: #f7b600;
+    background: #fff;
+    
+}
+
+/*Formatações gerais*/
+
+h1{
+    color: #black;
+    font-size: 2.5em;
+}
+
+.branco{
+    color: white;
+}
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: 400px;
+    background: url('imagens/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.botao{
+    width: 200px;
+    text-align: center;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 330px;
+    transition-duration: 0.4s;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid white;
+    
+}
+
+.botao:hover{
+    background-color: #a020f0;
+    color: yellow;
+}
+
+/*Catalogo*/
+
+.produto img{
+    width: 80%;
+    height: 150px;
+}
+
+main > header {
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 15px;
+    margin: 15px;
+    
+}   
+
+
+.produto { margin-bottom: 20px; cursor: pointer; border: 1px solid black; }
+
+.produto p {
+    background-color: #a020f0;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.produto p:hover {
+    transform: rotate(-2deg);    
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto button {
+    background-color: black;
+    color: #fff;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.produto button:hover {
+    background-color: #a020f0;
+    color: yellow;
+    cursor: pointer;
+    text-align: center;
+}
+
+.produto h2 {
+    font-size: 1.9rem;
+    color: black;
+    text-align: center;
+}
+
+footer {
+	background-color: #a020f0;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.cards{ 
+    margin-bottom: 20px;
+     cursor: pointer; 
+     border: 1px solid black;
+     }
+
+.cards p {
+    background-color: #a020f0;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.cards p:hover {
+    transform: rotate(-2deg);    
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    height: 40%;
+}
+
+.cards button {
+    background-color: black;
+    color: #fff;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.cards button:hover {
+    background-color: #a020f0;
+    color: yellow;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cards h2 {
+    font-size: 1.9rem;
+    color: black;
+    text-align: center;
+}
+
+.tamanho{
+    width: 60%;
+    height: 260px;
+}
+
+#prod{
+    display: flex;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 15px;
+    margin: 15px;
+    position: relative;
+    top: 30px;
+}
+
+.prom{
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 20px;
+}
